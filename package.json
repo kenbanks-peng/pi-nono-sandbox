@@ -1,6 +1,6 @@
 {
   "name": "@npm-ken/pi-nono-sandbox",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pi extension and skill for nono sandbox awareness, diagnosis, and session status.",
   "type": "module",
   "license": "UNLICENSED",
