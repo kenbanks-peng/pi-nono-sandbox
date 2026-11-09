@@ -1,7 +1,7 @@
 {
   "name": "@npm-ken/pi-nono-sandbox",
   "version": "1.0.0",
-  "description": "Pi extension that adds nono sandbox context, denial guidance, and session status.",
+  "description": "Pi extension and skill for nono sandbox awareness, diagnosis, and session status.",
   "type": "module",
   "license": "UNLICENSED",
   "keywords": [
@@ -12,11 +12,15 @@
   ],
   "files": [
     "nono-sandbox.ts",
+    "skills",
     "README.md"
   ],
   "pi": {
     "extensions": [
       "./nono-sandbox.ts"
+    ],
+    "skills": [
+      "./skills"
     ]
   },
   "engines": {
